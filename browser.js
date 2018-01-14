@@ -71,3 +71,5 @@ svg
 .append('g')
 .call(d3.axisBottom(xScale))
 .attr('transform', 'translate(0, ' + (height - bottomGutter) + ')');
+
+console.log(getData());
